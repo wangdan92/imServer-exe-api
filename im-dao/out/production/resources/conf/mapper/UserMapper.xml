@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.im.dao.UserDao">
+
+    <sql id="queryCondition">
+        <if test="condition != null and condition !='' ">
+            <foreach collection="condition" index="index" item="item">
+                <if test="item != null and item !='' ">
+                    and (u.userName like concat('%',#{item},'%') or r.name like concat('%',#{item},'%') or u.realName
+                    like concat('%',#{item},'%'))
+                </if>
+            </foreach>
+        </if>
+        <if test="roleId != null and roleId !=0">
+            and (r.id = #{roleId})
+        </if>
+    </sql>
+
+    <select id="listUser" parameterType="com.im.entity.User" resultType="com.im.entity.User">
+        SELECT u.*,r.name roleName,cr.realName AS createRealName,up.realName AS updateRealName
+        FROM user u LEFT JOIN role r ON (u.roleId=r.id)
+        LEFT JOIN user AS cr ON(u.createMan = cr.id)
+        LEFT JOIN user AS up ON(u.updateMan =up.id)
+        where u.userType=#{userType}
+        <include refid="queryCondition"/>
+    </select>
+
+    <select id="listServiceUser" parameterType="com.im.entity.User" resultType="com.im.entity.User">
+        SELECT u.*,r.name roleName,cr.realName AS createRealName,up.realName AS updateRealName
+        FROM user u LEFT JOIN role r ON (u.roleId=r.id)
+        LEFT JOIN user AS cr ON(u.createMan = cr.id)
+        LEFT JOIN user AS up ON(u.updateMan =up.id)
+        where u.userType!=#{userType}
+        <include refid="queryCondition"/>
+    </select>
+
+    <select id="listByIds" parameterType="list" resultType="com.im.entity.User">
+        select * from user where id in
+        <foreach collection="idList" open="(" separator="," close=")" index="index" item="item">
+            #{item}
+        </foreach>
+    </select>
+
+    <update id="updateUser" parameterType="com.im.entity.User">
+        update user set userName=#{userName}
+        <if test="realName!=null and realName!=''">
+            ,realName=#{realName}
+        </if>
+        <if test="status!=null and status!=''">
+            ,status=#{status}
+        </if>
+        <if test="adminFlag!=null">
+            ,adminFlag=#{adminFlag}
+        </if>
+        <if test="telephone!=null and telephone!=''">
+            ,telephone=#{telephone}
+        </if>
+        <if test="mobile!=null and mobile!=''">
+            ,mobile=#{mobile}
+        </if>
+        <if test="email!=null and email!=''">
+            ,email=#{email}
+        </if>
+        <if test="departments!=null and departments!=''">
+            ,departments=#{departments}
+        </if>
+        <if test="positions!=null and positions!=''">
+            ,positions=#{positions}
+        </if>
+        <if test="updateMan!=null and updateMan!=''">
+            ,updateMan=#{updateMan}
+        </if>
+        <if test="updateTime!=null">
+            ,updateTime=#{updateTime}
+        </if>
+        <if test="expireTime!=null">
+            ,expireTime=#{expireTime}
+        </if>
+        <if test="description!=null and description!=''">
+            ,description=#{description}
+        </if>
+        <if test="address!=null and address!=''">
+            ,address=#{address}
+        </if>
+        <if test="roleId!=null and roleId!=''">
+            ,roleId=#{roleId}
+        </if>
+        <if test="bureauId!=null and bureauId!=''">
+            ,bureauId=#{bureauId}
+        </if>
+        <if test="departmentId!=null and departmentId!=''">
+            ,departmentId=#{departmentId}
+        </if>
+        <if test="internalFlag!=null">
+            ,internalFlag=#{internalFlag}
+        </if>
+        <if test="userType!=null and userType!=''">
+            ,userType=#{userType}
+        </if>
+        <if test="idCard!=null and idCard!=''">
+            ,idCard=#{idCard}
+        </if>
+        <if test="dataAuthority!=null and dataAuthority!=''">
+            ,dataAuthority=#{dataAuthority}
+        </if>
+        <if test="personnelId!=null and personnelId!=''">
+            ,personnelId=#{personnelId}
+        </if>
+        <if test="merchantId!=null and merchantId!=''">
+            ,merchantId=#{merchantId}
+        </if>
+        <if test="active!=null">
+            ,active=#{active}
+        </if>
+        <if test="compound!=null and compound!=''">
+            ,compound=#{compound}
+        </if>
+        <if test="building!=null and building!=''">
+            ,building=#{building}
+        </if>
+        <if test="floor!=null and floor!=''">
+            ,floor=#{floor}
+        </if>
+        <if test="room!=null and room!=''">
+            ,room=#{room}
+        </if>
+        <if test="accountValidity!=null">
+            ,accountValidity=#{accountValidity}
+        </if>
+        where id=#{id}
+    </update>
+
+</mapper>

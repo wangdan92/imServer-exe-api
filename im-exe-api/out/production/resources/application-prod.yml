@@ -1,0 +1,41 @@
+  server:
+    port: 9797
+    servlet:
+      context-path: /servicePlatform
+
+  spring:
+    redis:
+      database: 0
+      host: wjw-redis
+      password: g6s8m3t7s
+      port: 6379
+    datasource:
+      url: jdbc:mysql://wjw-mysql:3306/wjw?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8
+      username: root
+      password: 123456
+      driverClassName: com.mysql.jdbc.Driver
+      druid:
+        initialSize: 5
+        minIdle: 5
+        maxActive: 1200
+        maxWait: 60000
+        timeBetweenEvictionRunsMillis: 60000
+        minEvictableIdleTimeMillis: 300000
+        validationQuery: SELECT 1 FROM DUAL
+        testWhileIdle: true
+        testOnBorrow: false
+        testOnReturn: false
+        poolPreparedStatements: true
+        maxPoolPreparedStatementPerConnectionSize: 20
+        filters: stat,wall,log4j
+        connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+
+  diy:
+    uploadPath: /wjw/multipart/
+    initResource: true
+    actualDate: 21  #考勤日
+    multipartUrl: http://114.242.34.137:29898/multipartPlatform
+    visitorInfoUrl: http://114.242.34.137:28080/appManager/#/public/visitorInfo
+    payUrl: https://api.citic.mbupay.com/pay/gateway
+    smsPassword: 2e0c9d8d3f09eaa34677dee51cee974a
+    platformUrl: http://114.242.34.137:29797/servicePlatform

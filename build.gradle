@@ -1,0 +1,161 @@
+apply from: "config.gradle"
+buildscript {
+    ext {
+        springBootVersion = '2.2.2.RELEASE'
+    }
+    repositories {
+        mavenLocal()
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'http://maven.oschina.net/content/groups/public/' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+allprojects {
+    apply plugin: 'idea'
+    apply plugin: 'java'
+    apply plugin: 'io.spring.dependency-management'
+    group = 'com.im'
+}
+
+subprojects {
+    compileJava {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+        options.encoding = 'UTF-8'
+    }
+
+    compileTestJava {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+        options.encoding = 'UTF-8'
+    }
+    repositories {
+        mavenLocal()
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'http://maven.oschina.net/content/groups/public/' }
+        maven { url 'https://mvnrepository.com/artifact/pinyin/pinyin' }
+        maven { url 'http://mvn.gt.igexin.com/nexus/content/repositories/releases/' }
+        mavenCentral()
+    }
+    ext {
+    }
+    apply plugin: 'org.springframework.boot'
+    apply plugin: 'io.spring.dependency-management'
+    dependencies {
+        compile('org.springframework.boot:spring-boot-starter-activemq')
+        compile('org.springframework.boot:spring-boot-starter-aop')
+        compile('org.springframework.boot:spring-boot-starter-web')
+        compile("org.springframework.boot:spring-boot-devtools")
+        compile("org.springframework.boot:spring-boot-starter-mail")
+        compile("org.springframework.boot:spring-boot-starter-data-redis")
+        compile 'commons-fileupload:commons-fileupload:1.4'
+        compile "org.mybatis.spring.boot:mybatis-spring-boot-starter:${mybatisSpringBootStarterVersion}"
+        compile "com.alibaba:druid-spring-boot-starter:${druidSpringBootStartVersion}"
+        compile "com.github.pagehelper:pagehelper:${pagehelperVersion}"
+        compile "javax.xml.bind:jaxb-api:${jaxbVersion}"
+        compile "com.alibaba:fastjson:${fastjsonVersion}"
+        compile "pinyin:pinyin:0.1.0"
+        compile "commons-codec:commons-codec:${commonsCodecVersion}"
+        compile "commons-beanutils:commons-beanutils:${commonsBeanutilsVersion}"
+        compile "jdom:jdom:${jdomVersion}"
+        compile "commons-io:commons-io:${commonsIoVersion}"
+        compile "org.apache.commons:commons-lang3:${commonsLang3Version}"
+        compile "io.springfox:springfox-swagger-ui:${springfoxSwaggerVersion}"
+        compile "io.springfox:springfox-swagger2:${springfoxSwaggerVersion}"
+        compile "org.eclipse.paho:org.eclipse.paho.client.mqttv3:${pahoVersion}"
+        compile "log4j:log4j:${log4jVersion}"
+        runtime('mysql:mysql-connector-java')
+        testCompile('org.springframework.boot:spring-boot-starter-test')
+        testCompile("org.junit.jupiter:junit-jupiter-api")
+        testRuntime("org.junit.jupiter:junit-jupiter-engine")
+    }
+}
+
+
+project(':im-common') {
+    bootJar.enabled = false
+    jar.enabled = true
+    dependencies {
+        compile "cn.jpush.api:jpush-client:${jpushClientVersion}"
+        compile "com.gexin.platform:gexin-rp-sdk-http:${uniPushVersion}"
+        compile "org.apache.commons:commons-jexl:${commonsJexlVersion}"
+        compile "org.dom4j:dom4j:${dom4jVersion}"
+    }
+}
+
+project(':im-pojo') {
+    bootJar.enabled = false
+    jar.enabled = true
+    dependencies {
+        compile project(':im-common')
+    }
+}
+
+project(':im-dao') {
+    bootJar.enabled = false
+    jar.enabled = true
+    dependencies {
+        compile project(':im-common')
+        compile project(':im-pojo')
+    }
+}
+
+project(':im-service') {
+    bootJar.enabled = false
+    jar.enabled = true
+    dependencies {
+        compile project(':im-common')
+        compile project(':im-pojo')
+        compile project(':im-dao')
+    }
+}
+
+project(':im-admin') {
+    apply plugin: 'war'
+    dependencies {
+        compile project(':im-common')
+        compile project(':im-pojo')
+        compile project(':im-dao')
+        compile project(':im-service')
+        compile "org.springframework.session:spring-session-data-redis"
+    }
+}
+
+project(':im-app-api') {
+    apply plugin: 'war'
+    dependencies {
+        compile project(':im-common')
+        compile project(':im-pojo')
+        compile project(':im-dao')
+        compile project(':im-service')
+        compile('org.springframework.boot:spring-boot-starter-websocket')
+        compile "org.springframework.session:spring-session-data-redis"
+    }
+}
+
+project(':im-exe-api') {
+    apply plugin: 'war'
+    dependencies {
+        compile project(':im-common')
+        compile project(':im-pojo')
+        compile project(':im-dao')
+        compile project(':im-service')
+        compile('org.springframework.boot:spring-boot-starter-websocket')
+        compile "org.springframework.session:spring-session-data-redis"
+    }
+}
+
+project(':im-multipartfile') {
+    apply plugin: 'war'
+    dependencies {
+        compile project(':im-common')
+        compile project(':im-pojo')
+        compile project(':im-dao')
+        compile project(':im-service')
+        compile "org.springframework.session:spring-session-data-redis"
+    }
+}

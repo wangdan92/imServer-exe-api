@@ -1,0 +1,30 @@
+  spring:
+    profiles:
+      active: dev
+    http:
+      encoding:
+        charset: UTF-8
+        enabled: true
+        force: true
+    session:
+      store-type: redis
+
+  mybatis:
+    mapperLocations: classpath*:conf/mapper/*.xml
+    configLocation: classpath:mybatis.xml
+    type-aliases-package: com.im.entity
+
+  logging:
+    file:
+      name: logs/imserver.log
+    level:
+      root: INFO
+      org.springframework.web: DEBUG
+      com.dfjs: DEBUG
+      org.mybatis: DEBUG
+      org.apache.ibatis: DEBUG
+      java.sql.Connection: DEBUG
+      java.sql.Statement: DEBUG
+      java.sql.PreparedStatement: DEBUG
+      com.mysql.jdbc: DEBUG
+      io.swagger.models.parameters.AbstractSerializableParameter: error

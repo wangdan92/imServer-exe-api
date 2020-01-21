@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.im.dao.DepartmentDao" >
+
+  <sql id="queryCondition">
+    <where>
+      <if test="bureauId != null and bureauId !=0 ">
+        and d.bureauId=#{bureauId}
+      </if>
+      <if test="commonColumn != null and commonColumn !=''">
+        and d.departmentName like concat('%',#{commonColumn},'%')
+      </if>
+    </where>
+    order by seq asc
+  </sql>
+
+  <select id="listDepartment"  parameterType="com.im.entity.Department" resultType="com.im.entity.Department">
+    select d.*,b.bureauName from department d inner join bureau b on d.bureauId = b.id
+    <include refid="queryCondition" />
+  </select>
+</mapper>

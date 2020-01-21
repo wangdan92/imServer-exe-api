@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="im-window" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc0bd462-f9c5-4dd1-b393-eaef8b11e284" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/im-pojo/.gradle/" />
+    <ignored path="$PROJECT_DIR$/im-pojo/build/" />
+    <ignored path="$PROJECT_DIR$/im-dao/.gradle/" />
+    <ignored path="$PROJECT_DIR$/im-dao/build/" />
+    <ignored path="$PROJECT_DIR$/im-service/.gradle/" />
+    <ignored path="$PROJECT_DIR$/im-service/build/" />
+    <ignored path="$PROJECT_DIR$/im-common/.gradle/" />
+    <ignored path="$PROJECT_DIR$/im-common/build/" />
+    <ignored path="$PROJECT_DIR$/im-app-api/.gradle/" />
+    <ignored path="$PROJECT_DIR$/im-app-api/build/" />
+    <ignored path="$PROJECT_DIR$/im-exe-api/.gradle/" />
+    <ignored path="$PROJECT_DIR$/im-exe-api/build/" />
+    <ignored path="$PROJECT_DIR$/im-multipartfile/.gradle/" />
+    <ignored path="$PROJECT_DIR$/im-multipartfile/build/" />
+    <ignored path="$PROJECT_DIR$/admin/.gradle/" />
+    <ignored path="$PROJECT_DIR$/admin/build/" />
+    <ignored path="$PROJECT_DIR$/im-admin/.gradle/" />
+    <ignored path="$PROJECT_DIR$/im-admin/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/admin">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>userService</find>
+      <find>dfjs</find>
+      <find>userDao</find>
+      <find>websocket</find>
+      <find>easypoiStringBootVersion</find>
+      <find>validateMsg</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>im</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/im-dao/src/main/java/com/im/dao/ImBadWordsDao.java" />
+        <option value="$PROJECT_DIR$/im-dao/src/main/java/com/im/dao/ImChatGroupDao.java" />
+        <option value="$PROJECT_DIR$/im-dao/src/main/java/com/im/dao/ImChatGroupMessageDao.java" />
+        <option value="$PROJECT_DIR$/im-pojo/src/main/java/com/im/model/UserContactsModel.java" />
+        <option value="$PROJECT_DIR$/im-pojo/src/main/java/com/im/model/UserContactsItemModel.java" />
+        <option value="$PROJECT_DIR$/im-dao/src/main/java/com/im/dao/ImChatGroupUserDao.java" />
+        <option value="$PROJECT_DIR$/im-dao/src/main/java/com/im/dao/ImMessageDao.java" />
+        <option value="$PROJECT_DIR$/im-dao/src/main/java/com/im/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/im-dao/src/main/resources/conf/mapper/ImBadWordsMapper.xml" />
+        <option value="$PROJECT_DIR$/im-dao/src/main/resources/conf/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/im-service/src/main/java/com/im/ImBadWordsService.java" />
+        <option value="$PROJECT_DIR$/im-service/src/main/java/com/im/ImChatGroupMessageService.java" />
+        <option value="$PROJECT_DIR$/im-service/src/main/java/com/im/ImChatGroupService.java" />
+        <option value="$PROJECT_DIR$/im-service/src/main/java/com/im/ImChatGroupUserService.java" />
+        <option value="$PROJECT_DIR$/im-service/src/main/java/com/im/ImGroupService.java" />
+        <option value="$PROJECT_DIR$/im-service/src/main/java/com/im/ImMessageService.java" />
+        <option value="$PROJECT_DIR$/im-service/src/main/java/com/im/impl/ImBadWordsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/im-service/src/main/java/com/im/impl/ImChatGroupMessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/im-service/src/main/java/com/im/impl/ImChatGroupServiceImpl.java" />
+        <option value="$PROJECT_DIR$/im-service/src/main/java/com/im/impl/ImChatGroupUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/im-service/src/main/java/com/im/impl/ImGroupServiceImpl.java" />
+        <option value="$PROJECT_DIR$/im-service/src/main/java/com/im/impl/ImMessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/im-exe-api/src/main/java/com/im/controller/im/ImChatGroupController.java" />
+        <option value="$PROJECT_DIR$/im-exe-api/src/main/java/com/im/controller/im/ImChatGroupMessageController.java" />
+        <option value="$PROJECT_DIR$/im-exe-api/src/main/java/com/im/controller/im/ImChatGroupUserController.java" />
+        <option value="$PROJECT_DIR$/im-exe-api/src/main/java/com/im/controller/im/ImMessageController.java" />
+        <option value="$PROJECT_DIR$/im-exe-api/src/main/java/com/im/controller/user/UserController.java" />
+        <option value="$PROJECT_DIR$/im-common/src/main/java/com/im/constant/CacheConstants.java" />
+        <option value="$PROJECT_DIR$/im-pojo/src/main/java/com/im/model/DepartmentModel.java" />
+        <option value="$PROJECT_DIR$/im-pojo/src/main/java/com/im/entity/Department.java" />
+        <option value="$PROJECT_DIR$/im-dao/src/main/resources/conf/mapper/DepartmentMapper.xml" />
+        <option value="$PROJECT_DIR$/im-dao/src/main/java/com/im/dao/DepartmentDao.java" />
+        <option value="$PROJECT_DIR$/im-service/src/main/java/com/im/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/im-service/src/main/java/com/im/UserService.java" />
+        <option value="$PROJECT_DIR$/im-exe-api/src/main/java/com/im/interceptor/AuthHanlerInterceptor.java" />
+        <option value="$PROJECT_DIR$/im-exe-api/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/im-exe-api/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/im-common/src/main/java/com/im/bean/BaseConfig.java" />
+        <option value="$PROJECT_DIR$/im-pojo/src/main/java/com/im/entity/LoginLog.java" />
+        <option value="$PROJECT_DIR$/im-service/src/main/java/com/im/LoginLogService.java" />
+        <option value="$PROJECT_DIR$/im-dao/src/main/java/com/im/dao/LoginLogDao.java" />
+        <option value="$PROJECT_DIR$/im-service/src/main/java/com/im/impl/LoginLogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/im-exe-api/src/main/java/com/im/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/im-common/src/main/java/com/im/util/JaXmlBeanUtil.java" />
+        <option value="$PROJECT_DIR$/im-common/src/main/java/com/im/util/AddressUtils.java" />
+        <option value="$PROJECT_DIR$/im-common/src/main/java/com/im/util/CharactersUtil.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/config.gradle" />
+        <option value="$PROJECT_DIR$/im-exe-api/src/main/java/com/im/configuration/WebMvcConfigureration.java" />
+        <option value="$PROJECT_DIR$/im-exe-api/src/main/java/com/im/configuration/WebSocketConfig.java" />
+        <option value="$PROJECT_DIR$/im-exe-api/src/main/java/com/im/websocket/SocketServer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\mavenRepository" />
+        <option name="mavenHome" value="D:/soft/DEVTOOLS/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\soft\DEVTOOLS\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IM" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/im-exe-api/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2592047" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.im.dao" />
+      <recent name="com.im.impl" />
+      <recent name="com.im" />
+      <recent name="com.im.entity" />
+      <recent name="com.im.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wangdan\IM\im-exe-api\src\main\resources" />
+      <recent name="D:\wangdan\IM\im-exe-api\src\main\resources\conf" />
+      <recent name="D:\wangdan\IM\im-dao\src\main\resources\conf\mapper" />
+      <recent name="D:\wangdan\IM\im-pojo\src\main\java\com\im\model" />
+      <recent name="D:\wangdan\IM\im-pojo\src\main\java\com\im\entity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ImServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="im-exe-api_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wd.ImServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="im-exe-api_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.im.ImServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ImServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc0bd462-f9c5-4dd1-b393-eaef8b11e284" name="Default Changelist" comment="" />
+      <created>1579579393003</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579579393003</updated>
+      <workItem from="1579579399652" duration="24760000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24760000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3000811" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Build" weight="0.5459559" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.4540441" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.8327206" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.37316176" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.94485295" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2297794" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" weight="0.32927817" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Gradle" weight="0.26277372" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Bean Validation" weight="0.32927817" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/im-pojo/src/main/java/com/im/model/DepartmentModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-pojo/src/main/java/com/im/entity/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-dao/src/main/resources/conf/mapper/DepartmentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="16" column="90" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="90" />
+          <folding>
+            <element signature="n#sql#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-dao/src/main/java/com/im/dao/DepartmentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="76" column="30" lean-forward="true" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-dao/src/main/java/com/im/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-service/src/main/java/com/im/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="344" column="22" lean-forward="true" selection-start-line="344" selection-start-column="22" selection-end-line="344" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="method#getUserById#0;class#UserServiceImpl#0" />
+            <element signature="e#3134#3442#0" />
+            <element signature="e#7409#7587#0" />
+            <element signature="e#7593#8441#0" />
+            <element signature="e#9925#10519#0" />
+            <element signature="e#10525#10857#0" />
+            <element signature="e#10863#11053#0" />
+            <element signature="e#12864#13122#0" />
+            <element signature="e#13128#13376#0" />
+            <element signature="e#13382#13693#0" />
+            <element signature="e#13699#13907#0" />
+            <element signature="e#13913#14091#0" />
+            <element signature="e#17051#17429#0" />
+            <element signature="e#18228#18467#0" />
+            <element signature="e#18474#18912#0" />
+            <element signature="e#19122#20273#0" />
+            <element signature="e#20419#20574#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-service/src/main/java/com/im/impl/TokenServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="49" column="72" selection-start-line="49" selection-start-column="72" selection-end-line="49" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-pojo/src/main/java/com/im/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8732#8733#0" expanded="true" />
+            <element signature="e#8763#8764#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-service/src/main/java/com/im/impl/RedisServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-service/src/main/java/com/im/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="192" column="13" selection-start-line="192" selection-start-column="13" selection-end-line="192" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-exe-api/src/main/resources/conf/dictionary.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-exe-api/src/main/resources/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-exe-api/src/main/java/com/im/configuration/RedisSessionConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-exe-api/src/main/java/com/im/configuration/RestTemplateConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-exe-api/src/main/java/com/im/configuration/SwaggerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-exe-api/src/main/java/com/im/configuration/TransactionalConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-exe-api/src/main/java/com/im/interceptor/AuthHanlerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-exe-api/src/main/java/com/im/websocket/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-common/src/main/java/com/im/bean/BaseConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-common/src/main/java/com/im/bean/TokenInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-common/src/main/java/com/im/bean/MsgInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-common/src/main/java/com/im/util/SpellHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-pojo/src/main/java/com/im/entity/LoginLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-dao/src/main/java/com/im/dao/LoginLogDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-exe-api/src/main/java/com/im/controller/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="146" column="67" selection-start-line="146" selection-start-column="67" selection-end-line="146" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getUserInfoById#0;class#UserController#0" />
+            <element signature="method#updatePhotoPath#0;class#UserController#0" />
+            <element signature="method#getAllDepartment#0;class#UserController#0" />
+            <element signature="method#getDeptMembers#0;class#UserController#0" />
+            <element signature="method#getContactsList#0;class#UserController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/DEVTOOLS/JDK1.8/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-service/src/main/java/com/im/impl/LoginLogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addLoginLog#0;class#LoginLogServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-service/src/main/java/com/im/LoginLogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-exe-api/src/main/java/com/im/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="237" column="61" selection-start-line="237" selection-start-column="61" selection-end-line="237" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#login#0;class#LoginController#0" />
+            <element signature="method#loginByToken#0;class#LoginController#0" />
+            <element signature="method#oaLogin#0;class#LoginController#0" />
+            <element signature="method#oaLoginByToken#0;class#LoginController#0" />
+            <element signature="method#logout#0;class#LoginController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-exe-api/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-common/src/main/java/com/im/util/JaXmlBeanUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-common/src/main/java/com/im/util/XmlElementAnno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-common/src/main/java/com/im/util/ToJSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-exe-api/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-common/src/main/java/com/im/util/IdCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-common/src/main/java/com/im/util/DateTimeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-common/src/main/java/com/im/util/ContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-common/src/main/java/com/im/util/ChatUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-common/src/main/java/com/im/util/CharactersUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-common/src/main/java/com/im/constant/ExtentionConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-common/src/main/java/com/im/constant/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-common/src/main/java/com/im/util/AddressUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/imserver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+          <folding>
+            <element signature="e#40#525#0" />
+            <element signature="e#539#665#0" />
+            <element signature="e#829#939#0" />
+            <element signature="e#957#1316#0" />
+            <element signature="e#1447#3286#0" />
+            <element signature="e#3313#3653#0" />
+            <element signature="e#3675#3792#0" />
+            <element signature="e#3813#3966#0" />
+            <element signature="e#3991#4179#0" />
+            <element signature="e#4202#4474#0" />
+            <element signature="e#4499#4845#0" />
+            <element signature="e#4870#5216#0" />
+            <element signature="e#5247#5519#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-exe-api/src/main/java/com/im/configuration/WebMvcConfigureration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addInterceptors#0;class#WebMvcConfigureration#0" />
+            <element signature="method#addCorsMappings#0;class#WebMvcConfigureration#0" />
+            <element signature="method#multipartConfigElement#0;class#WebMvcConfigureration#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-exe-api/src/main/java/com/im/controller/im/ImChatGroupMessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="186" column="58" selection-start-line="186" selection-start-column="58" selection-end-line="186" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#validateMsg#0;class#ImChatGroupMessageController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-exe-api/src/main/java/com/im/websocket/SocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onMessage#0;class#SocketServer#0" />
+            <element signature="method#onClose#0;class#SocketServer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-exe-api/src/main/java/com/im/configuration/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-exe-api/src/main/java/com/im/ImServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>unnamed</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2592047" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2592047" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2592047" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>IM|IM</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2592047" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2592047" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

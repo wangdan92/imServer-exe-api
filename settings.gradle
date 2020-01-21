@@ -1,0 +1,10 @@
+rootProject.name = 'IM'
+include 'im-pojo'
+include 'im-dao'
+include 'im-service'
+include 'im-common'
+include 'im-app-api'
+include 'im-exe-api'
+include 'im-multipartfile'
+include 'im-admin'
+
